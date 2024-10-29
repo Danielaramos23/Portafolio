@@ -1,0 +1,223 @@
+h1 {
+  font-weight: bold;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  color: rgb(12, 5, 3);
+}
+.gallery {
+  display: flex;
+  padding-bottom: 5px;
+  padding-top: 50px;
+
+  nav {
+    font-size: 20px;
+    background-color: chocolate;
+  }
+}
+h5 {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 576px) {
+  container {
+    width: 100%;
+  }
+  .card {
+    margin-top: 3em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  container {
+    width: 70%;
+  }
+  .card {
+    margin-top: 3em;
+    border: shadow;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  container {
+    width: 30%;
+  }
+}
+
+@media screen and (min-widht: 1200px) {
+}
+@media screen and (min-width: 1400px) {
+}
+
+.carousel-caption h5 {
+  color: black;
+}
+
+.carousel-caption p {
+  color: black;
+}
+
+.carousel-indicators button {
+  background-color: black !important;
+}
+
+section {
+  min-height: 70%;
+}
+span {
+  font-family: "Arial";
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 12px;
+  color: #e04017;
+  display: block;
+  line-height: 1.1;
+  padding: 0 13px;
+  position: relative;
+}
+
+.mis_servicios {
+  color: #151719;
+}
+.mis_servicios h3 {
+  color: #cc3611;
+}
+#mis_servicios {
+  float: center;
+  color: #151719;
+  margin: 10px;
+}
+#MisultimosTrabajos h2 {
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #db5d09;
+}
+#MisultimosTrabajos {
+  padding: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #151719;
+}
+
+#redes {
+  font-family: "Arial";
+  font-size: 16px;
+  float: right;
+}
+
+#presentavc {
+  color: #2b2424;
+  font-weight: 400;
+  font-size: 32px;
+  padding: 1em;
+}
+
+footer {
+  background:#2c2624;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+span::before {
+  background: linear-gradient(90deg, var(--start-color), var(--end-color));
+  content: var(--content);
+  position: absolute;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated 9s infinite;
+  animation-delay: var(--delay);
+}
+
+@keyframes animated {
+  0%,
+  16.667%,
+  100% {
+    opacity: 1;
+  }
+  33.333%,
+  83.333% {
+    opacity: 0;
+  }
+}
+
+body {
+  background-image: -webkit-image-set(url("/assets/img/carousel1.jpg"));
+  background-image: linear-gradient(to bottom, #fffefe, #f7f4f4),
+    url("/assets/img/carousel4.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr) gap(16px));
+}
+.card-shadow {
+  color: #fa4f00;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.card-shadow:hover {
+  transform: scale3d(1.5, 1.5, 0.3);
+  -webkit-transform: scale3d(1.5, 1.5, 0.3);
+  -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+.jumbotron {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+header {
+  padding-top: 3.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.carousel-inner img {
+  width: 50%;
+  max-height: 460px;
+}
+
+.carousel-inner {
+  height: 600px;
+}
+
+@media screen and (min-width: 576px) {
+  container {
+    width: 100%;
+  }
+  .card {
+    margin-top: 3em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  container {
+    width: 70%;
+  }
+  .card {
+    margin-top: 3em;
+    border: shadow;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  container {
+    width: 70%;
+  }
+}
+
+@media screen and (min-widht: 1200px) {
+  .mis_servicios {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1400px) {
+}
+
+#contact{
+    color:black;
+}
+
+button[type=submit]{
+    width: 200px;
+}
